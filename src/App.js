@@ -74,7 +74,8 @@ const ColorGame = () => {
   };
 
   return (
-    <div className="game-container">
+    <div className="d-flex align-items-center justify-content-center">
+    <div className="game-container col-lg-5 mt-lg-5">
       <h1>Color Guessing Game</h1>
       <p data-testid="gameInstructions">Guess the correct color before time runs out!</p>
       <div data-testid="colorBox" className={`color-box ${gameActive ? "rotate" : ""}`} style={{ backgroundColor: gameActive ? boxColor : "gray" }}></div>
@@ -96,6 +97,7 @@ const ColorGame = () => {
       <p data-testid="gameStatus" className="game-status">{gameStatus}</p>
       <p data-testid="score" className="score">Score: {score} | Streak: {streak}</p>
       <button data-testid="newGameButton" className="new-game-button" onClick={startNewGame}>New Game</button>
+    </div>
     </div>
   );
 };

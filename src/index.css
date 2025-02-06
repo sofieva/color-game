@@ -19,8 +19,8 @@ code {
   text-align: center;
   background-color: #f4f4f4;
   border-radius: 10px;
-  padding: 20px;
-  width: 500px;
+  padding: 10px;
+  /* width: 500px; */
   margin: 0 auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -49,7 +49,7 @@ p {
 }
 
 .color-box {
-  width: 120px;
+  width: 130px;
   height: 120px;
   margin: 20px auto;
   border-radius: 10px;
@@ -75,8 +75,8 @@ p {
 }
 
 .color-button {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   border: none;
   border-radius: 50%;
   cursor: pointer;
