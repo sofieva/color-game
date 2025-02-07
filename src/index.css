@@ -36,6 +36,14 @@ p {
   margin: 10px 0;
 }
 
+@media (max-width: 768px) {
+
+  .color-button{
+font-size: small;
+text-align: center;
+  }
+
+}
 
 /* box rotation */
 
